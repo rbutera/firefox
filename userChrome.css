@@ -11,43 +11,43 @@
 @import url(hacks/darkContextMenu.css);
 
 /* Apply your custom modifications after imports */
-#TabsToolbar, #sidebar-header, #sidebar-splitter {
-  display: none;
-}
+/* #TabsToolbar, #sidebar-header, #sidebar-splitter { */
+/*   display: none; */
+/* } */
 
 /* Bookmark Panel Tweaks */
- #sidebar-box,
- #sidebar,
- .sidebar-placesTree {
-     font-family: Fira Sans !important;
-     color: #70a0ff !important;
-     background-color: rgba(29,0,64) !important;
- }
+#sidebar-box,
+#sidebar,
+.sidebar-placesTree {
+  font-family: Fira Sans !important;
+  color: #70a0ff !important;
+  background-color: rgba(29, 0, 64) !important;
+}
 
 #search-box {
   color: white;
 }
 
 /* Remove Folders from Bookmark Sidebar*/
-.sidebar-placesTreechildren::-moz-tree-image(title, container){ 
-list-style-image: none !important;
-display: none !important;
-padding-right: 0px !important;
-margin: 0px 0px !important;
-width: 0px !important; 
+.sidebar-placesTreechildren::-moz-tree-image(title, container) {
+  list-style-image: none !important;
+  display: none !important;
+  padding-right: 0px !important;
+  margin: 0px 0px !important;
+  width: 0px !important;
 }
 
 /* Fira Sans In Most Places */
 #searchFilter,
-  menulist,
-  input,  
-  textbox,
-  richlistbox,
-  treecol,
-  button,
-  menu,
-#permList{
-    font-family: Fira Sans !important;
+menulist,
+input,
+textbox,
+richlistbox,
+treecol,
+button,
+menu,
+#permList {
+  font-family: Fira Sans !important;
 }
 
 #PersonalToolbar,
